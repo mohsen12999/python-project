@@ -1,5 +1,3 @@
-import time
-
 def mytime(mil):
     mil = int(mil)
     seconds=(millis/1000)%60
@@ -10,6 +8,5 @@ def mytime(mil):
     print (hours+":"+minutes+":"+seconds)
 
 
-mytime = time.time()
-millis = int(round(mytime * 1000))
+millis=input("Enter time in milliseconds: ")
 mytime(millis)
