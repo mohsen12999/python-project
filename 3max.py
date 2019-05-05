@@ -1,5 +1,5 @@
 def max3(arr):
-    sorted(arr, reverse=True)
+    arr = sorted(arr, reverse=True)
     return arr[:3]
 
 numbers_list = [2, 5, 62, 5, 42, 52, 48, 5]
